@@ -1,0 +1,58 @@
+[{
+  "id": 1,
+  "title": "用户管理",
+  "children": [{
+    "id": 11,
+    "iframe": 1,
+    "iconCls":"icon-users",
+    "menuName": "订单查询",
+    "url": "demo/datagrid.html"
+  },
+    {
+      "id": 12,
+      "iframe": 1,
+      "iconCls":"icon-users",
+      "menuName": "新菜单",
+      "url": "http://www.baidu.com"
+    }
+  ]
+},
+  {
+    "id": 2,
+    "title": "资金管理",
+    "children": [{
+      "id": 21,
+      "iframe": 1,
+      "iconCls":"icon-users",
+      "menuName": "新菜单",
+      "url": "http://www.baidu.com"
+    },
+      {
+        "id": 22,
+        "iframe": 1,
+        "iconCls":"icon-users",
+        "menuName": "新菜单",
+        "url": "http://www.baidu.com"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "股份管理",
+    "children": [{
+      "id": 31,
+      "iframe": 1,
+      "iconCls":"icon-users",
+      "menuName": "新菜单",
+      "url": "http://www.baidu.com"
+    },
+      {
+        "id": 32,
+        "iframe": 1,
+        "iconCls":"icon-users",
+        "menuName": "新菜单",
+        "url": "http://www.baidu.com"
+      }
+    ]
+  }
+]

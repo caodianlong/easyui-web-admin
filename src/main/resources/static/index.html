@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Loading Accordion Content with AJAX - jQuery EasyUI Demo</title>
+    <link rel="stylesheet" type="text/css" href="jquery-easyui/1.7.0/themes/default/easyui.css">
+    <link rel="stylesheet" type="text/css" href="jquery-easyui/1.7.0/themes/icon.css">
+    <link rel="stylesheet" type="text/css" href="jquery-easyui/1.7.0/demo/demo.css">
+    <script type="text/javascript" src="jquery-easyui/1.7.0/jquery.min.js"></script>
+    <script type="text/javascript" src="jquery-easyui/1.7.0/jquery.easyui.min.js"></script>
+    <script src="js/loadMenu.js"></script>
+    <link rel="stylesheet" href="css/wu.css">
+</head>
+<body class="easyui-layout">
+    <div class="wu-header" data-options="region:'north',border:false,split:true">
+        <div class="wu-header-left">
+            <h1>EasyUI Web Admin</h1>
+        </div>
+        <div class="wu-header-right">
+            <p><strong class="easyui-tooltip" title="2条未读消息">admin</strong>，欢迎您！</p>
+            <p><a href="#">网站首页</a>|<a href="#">支持论坛</a>|<a href="#">帮助中心</a>|<a href="#">安全退出</a></p>
+        </div>
+    </div>
+
+    <!--<div data-options="region:'east',split:true" title="East" style="width:100px;"></div>-->
+    <div data-options="region:'west',split:true" title="菜单栏" style="width:200px;">
+        <div id="layout_west_accordion" class="easyui-accordion" data-options="border:false,fit:true">
+            <!--<div title="About" data-options="iconCls:'icon-ok'" style="overflow:auto;padding:10px;">-->
+            <!--<ul class="easyui-tree">-->
+            <!--<li iconCls="icon-users"><a href="javascript:void(0)" data-icon="icon-users" data-link="temp/layout-3.html" iframe="0">用户管理</a></li>-->
+            <!--<li iconCls="icon-users"><a href="javascript:void(0)" data-icon="icon-users" data-link="temp/layout-3.html" iframe="0">菜单管理</a></li>-->
+            <!--</ul>-->
+            <!--</div>-->
+            <!--<div title="Help" data-options="iconCls:'icon-help'" style="padding:10px;">-->
+            <!--<p>The accordion allows you to provide multiple panels and display one or more at a time. Each panel has built-in support for expanding and collapsing. Clicking on a panel header to expand or collapse that panel body. The panel content can be loaded via ajax by specifying a 'href' property. Users can define a panel to be selected. If it is not specified, then the first panel is taken by default.</p>-->
+            <!--</div>-->
+            <!--<div title="Ajax" data-options="href:'menuitem.html'" style="padding:10px">-->
+            <!--</div>-->
+        </div>
+    </div>
+    <div data-options="region:'center'">
+        <div id="tab_pannel" class="easyui-tabs" data-options="border:false,fit:true">
+            <!--<div title="首页">-->
+            <div title="首页" data-options="href:'welcome.html',closable:false,iconCls:'icon-tip',cls:'pd3'"></div>
+            <!--<div title="首页" data-options="href:'temp/welcome.html',closable:false,iconCls:'icon-tip',cls:'pd3'"></div>-->
+        </div>
+    </div>
+
+    <div class="wu-footer" data-options="region:'south',border:true,split:true">
+        &copy; 2019 All Rights Reserved
+    </div>
+<script>
+
+
+</script>
+</body>
+</html>

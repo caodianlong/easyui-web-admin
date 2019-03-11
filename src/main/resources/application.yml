@@ -1,0 +1,20 @@
+
+
+server:
+  port: 80
+
+management:
+  security:
+    enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics
+
+spring:
+  datasource:
+    name: sign
+    url: jdbc:mysql://10.137.37.77:3306/sign?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.jdbc.Driver
